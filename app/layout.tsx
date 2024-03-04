@@ -7,6 +7,7 @@ import Navegation from "./components/Navigation";
 import FooterCom from "./components/Footer";
 
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navegation></Navegation>
+        
         {children}</body>
         <FooterCom></FooterCom>
     </html>
